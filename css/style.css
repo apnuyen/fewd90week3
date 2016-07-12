@@ -10,6 +10,133 @@ body {
   line-height: 1.3;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family:"Permanent Marker", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size:24px;
+  border-bottom: 1px dashed #CCCCCC;
+  padding-bottom:10px;
+}
+blockquote {
+  border: 2px solid #eeeeee;
+  padding:18px;
+  margin:20px 0;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+a {
+  color:#1FA2E1;
+  text-decoration: none;
+}
+
+header {
+  background-color: #000000;
+
+}
+
+nav a {
+  color:#cccccc;
+  text-decoration: none;
+  padding:25px 20px;
+  display:block;
+  float:left;
+}
+
+nav a:hover {
+  color:#FFFFFF;
+  background-color:#1FA2E1;
+}
+
+.hero {
+  background-image: url("../images/photobanner.png");
+  background-size: cover;
+  height:500px;
+  width:100%;
+}
+
+.wrapper {
+  margin:0 auto;
+  width:960px;
+}
+
+.middle {
+  margin:0 auto;
+  width:960px;
+}
+
+.middle a {
+  padding:20px 5px;
+  display:block;
+  float:right;
+}
+
+.middle h1 {
+  float:left;
+  padding-top:10px;
+}
+
+.left {
+  display:block;
+  float:left;
+}
+
+.right {
+  display:block;
+  float:right;
+}
+
+.widget1 {
+  width:210px;
+  float:left;
+  margin-right:30px;
+
+}
+
+.widget2 {
+  width:400px;
+  float:left;
+  margin-right:30px;
+
+}
+
+article {
+  width:290px;
+  float:left;
+  margin-right:30px;
+  margin-bottom: 30px;
+}
+
+article img {
+  border: 4px solid #eee;
+  margin: 15px 0;
+}
+
+footer {
+  background-color: #222222;
+  color: #aaaaaa;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  display:block;
+  padding:10px 0;
+  border-bottom: 1px dashed #CCCCCC;
+
+}
+
 /* Utility clearing classes you may use. */
 .clear {
   clear: both;

@@ -9,8 +9,20 @@ Widths
 Header - 100% (default)
 Header inner - 960px
 
+(use .wrapper)
+
 Hero - 100% (default)
 Hero inner - 960px
+
+.hero {
+	background-image:url('xxxxx.jpg')
+	background-size: cover;
+	height:500px;
+	width:100%:
+}
+
+background size = 
+background-size:cover;
 
 Quote - 960px
 
@@ -41,4 +53,27 @@ Footer widget title text
 
 Footer dashed line
 #666666
+
+
+------------------------- Notes for code
+header
+nav
+a href
+
+section
+div class wrapper
+h1 busy hands
+nav (circles)
+/nav /div /section
+
+section class "wrapper clearfix"
+blockquote /blockquote
+articles (float left)
+	width 320px each
+apply clearfix 
+/section
+
+footer
+div x 3
+/footer
 
