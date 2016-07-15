@@ -112,14 +112,18 @@ nav a:hover {
 }
 
 article {
-  width:290px;
+  width:280px;
   float:left;
-  margin-right:30px;
+  margin-right:60px;
   margin-bottom: 30px;
 }
 
+article.last {
+    margin-right: 0;
+}
+
 article img {
-  border: 4px solid #eee;
+  border: 3px solid #eee;
   margin: 15px 0;
 }
 
